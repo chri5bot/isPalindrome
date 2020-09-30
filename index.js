@@ -15,7 +15,7 @@ function isPalindrome(text){
   let countOdds = 0
   
   for (let j = 0; j < listRepeats.length; j++){
-  	if (listRepeats[j] % 2 === 0) countEvens++;
+    if (listRepeats[j] % 2 === 0) countEvens++;
     if (listRepeats[j] % 2 === 1) countOdds++;
   }
     
